@@ -18,7 +18,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Drivers\\chromedriver.exe");
 WebDriver driver=new ChromeDriver();
 driver.get("https://www.google.com/");
 driver.manage().window().maximize();
-driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("Chrome Drivers");
+driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("Github");
 driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 driver.findElement(By.xpath("//input[@class='gNO89b']")).click();
 	}
